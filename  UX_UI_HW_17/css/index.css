@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Spartan:wght@400;500&display=swap');
+
+
+.Container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #FF5E58;
+    height: 74px;
+    text-align: center;
+}
+.topNav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 130px;
+}
+
+li {
+    position: relative;
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 30px 30px;
+    right: 55px;
+}
+
+.heroBanner{
+    background-color: #FF9B97;
+    height: 417px;
+    background-position: 10px;
+    display: block;
+    margin-top: 0px;
+}
+
+.text-block{
+    position: relative;
+    left: 300px;
+    font-family: 'Playfair Display', serif;
+    font-size: 74pt;
+    float: none;
+    overflow: visible;
+    right: -250px;
+    bottom: 468px;
+    min-height: 91px;
+    min-width: 657px;
+    text-align: center;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-size: 18pt;
+    margin: -450px 250px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+h2 a{
+    font-family: 'Playfair Display', serif;
+    font-size: 46pt;
+}
+.CaseStudy{
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+}
+
+.AgelessAlliance{
+    background-color: #EAE9E4;
+    margin-top: 406px;
+    height: 812px;
+    padding-top: 48px;
+    padding-left: 70px;
+}
+.DOI{
+    background-color: #79A048;
+    margin-top: 119px;
+    height: 812px;
+    padding-top: 48px;
+    padding-left: 70px;
+}
+
+.LivingRoom{
+    background-color: #FFA440;
+    margin-top: 119px;
+    height: 812px;
+    padding-top: 48px;
+    padding-left: 70px;
+}
+
+footer{
+    background-color: #FF5E58;
+    margin-top: 119px;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.logo{
+    position: relative;
+    top: 12px;
+}
+.footerLinks{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    position: relative;
+    bottom: 60px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    justify-content: baseline;
+}
+.mockup1{
+    position: absolute;
+    align-items: center;
+    top: 725px;
+    right: 255px;
+    justify-content: space-around;
+}
+.DOI{
+    color: #FFFFFF;
+}
+.mockup2{
+    position: absolute;
+    align-items: center;
+    top: 1730px;
+    right: 255px;
+    justify-content: space-around;
+}
+.LivingRoom{
+    color: #FFFFFF;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.column{
+    margin-top: -875px;
+}
+
+.flex-box{
+    align-items: center;
+    display: flex;
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 1310px;
+    color:  #79A048;
+    font-size: 22px;
+    font-family: 'Spartan', sans-serif;
+    gap: 20px;
+}
+.flex-box2{
+    align-items: center;
+    display: flex;
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 1019px;
+    color:  #79A048;
+    font-size: 22px;
+    font-family: 'Spartan', sans-serif;
+    gap: 20px;
+}
+.flex-box3{
+    align-items: center;
+    display: flex;
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 1019px;
+    color:  #79A048;
+    font-size: 22px;
+    font-family: 'Spartan', sans-serif;
+    gap: 20px;
+}
