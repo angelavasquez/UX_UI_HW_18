@@ -28,40 +28,39 @@ li {
     right: 55px;
 }
 .aboutMe{
-    padding: 67px 71px;
+    padding: 40px 40px;
     display: flex;
+    max-width: auto;
+    height: 750px;
 }
 
 .verbiage{
-    justify-content: flex-end;
-    overflow: hidden;
+    width: 600px;
+    height: 713px;
 }
 
 .about{
+    top: 200px;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     color: black;
-    text-align: left;
-    margin: -14px 36px;
-   
+    margin: 0px 40px;
 }
 
 .hi{
     font-family: 'Playfair Display', serif;
-    font-size: 88px;
+    font-size: 75px;
     color: #79A048;
-    margin: 36px 36px;
-    display: inline-block;
-    overflow: hidden;
     white-space: nowrap;
-
+    margin: 0px 40px;
 }
 
 p{
     font-family: 'Spartan', sans-serif;
     float: right;
+    width: 600px;
     text-align: center;
-    font-size: 18pt;
+    font-size: 15pt;
     line-height: 135%;
 }
 
@@ -70,23 +69,23 @@ p{
     font-size: 88px;
     color: #79A048;
     text-align: center;
-    margin: 0px 5px;
+    margin: 0px 30px;
 }
 
 .flexContainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 150px 150px;
+    padding: 40px 150px;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 36px;
 }
 
 .flexContainer div{
     background-color: #FFA440;
-   
 }
 .flexContainer img{
      margin: 0px 60px;
+     align-items: center;
 }
 
 h2{
@@ -101,6 +100,13 @@ h2{
     font-size: 88px;
     color: #79A048;
     text-align: center;
+    margin: 60px 0px;
+}
+
+#Tools img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
