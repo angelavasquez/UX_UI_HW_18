@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Spartan:wght@400;500&display=swap');
+
+.Container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #FF5E58;
+    height: 74px;
+    text-align: center;
+}
+.topNav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 130px;
+}
+
+li {
+    position: relative;
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 30px 30px;
+    right: 55px;
+}
+.aboutMe{
+    padding: 67px 71px;
+    display: flex;
+}
+
+.verbiage{
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.about{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: black;
+    text-align: left;
+    margin: -14px 36px;
+   
+}
+
+.hi{
+    font-family: 'Playfair Display', serif;
+    font-size: 88px;
+    color: #79A048;
+    margin: 36px 36px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+p{
+    font-family: 'Spartan', sans-serif;
+    float: right;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 135%;
+}
+
+.heading{ 
+    font-family: 'Playfair Display', serif;
+    font-size: 88px;
+    color: #79A048;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.flexContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 150px 150px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 36px;
+}
+
+.flexContainer div{
+    background-color: #FFA440;
+   
+}
+.flexContainer img{
+     margin: 0px 60px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 18pt;
+}
+
+.heading2{
+    font-family: 'Playfair Display', serif;
+    font-size: 88px;
+    color: #79A048;
+    text-align: center;
+}
+
+footer{
+    background-color: #FF5E58;
+    margin-top: 119px;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.logo{
+    position: relative;
+    top: 12px;
+}
+.footerLinks{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    position: relative;
+    bottom: 60px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    justify-content: baseline;
+}
