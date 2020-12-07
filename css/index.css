@@ -138,6 +138,12 @@ li a{
     padding: 20px 10px;
     justify-content: baseline;
 }
+li img:hover{
+    font-weight:bold; 
+}
+li a:hover{
+   font-weight:bold;
+}
 @media only screen and (max-width: 600){
 .flexContainer div img{
     display: grid;
@@ -149,4 +155,10 @@ img {
     height: 100vh;
 }
 
+.dialog {
+    display:none;
+}
+ul > li > ul > li {
+    cursor: pointer;
+    color:blue;
 }

@@ -120,6 +120,12 @@ li a{
     padding: 20px 10px;
     justify-content: baseline;
 }
+li img:hover{
+    font-weight:bold; 
+}
+li a:hover{
+   font-weight:bold;
+}
 .mockup1{
     position: absolute;
     align-items: center;
@@ -163,6 +169,10 @@ li a{
     font-family: 'Spartan', sans-serif;
     gap: 20px;
 }
+
+.flex-box:hover{
+    font-weight:bold; 
+}
 .flex-box2{
     align-items: center;
     display: flex;
@@ -175,6 +185,9 @@ li a{
     font-family: 'Spartan', sans-serif;
     gap: 20px;
 }
+.flex-box2:hover{
+    font-weight:bold; 
+}
 .flex-box3{
     align-items: center;
     display: flex;
@@ -186,4 +199,7 @@ li a{
     font-size: 22px;
     font-family: 'Spartan', sans-serif;
     gap: 20px;
+}
+.flex-box3:hover{
+    font-weight:bold; 
 }
